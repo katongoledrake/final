@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo{
+    color:rgb(204, 11, 11);
+}
+.navbar-custom{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background:rgba(7,7,7,0.5);
+}
+/*---end of Nav----*/
+.hero{
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color:black;
+    background-image: url("./Images/");
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position:center ;
+    background-size:cover;
+}
+.hero-heading{
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    color: blue;
+}
+ /*end of HERO*/
+ .page-section h2.section-heading{
+     font-size: 2.5rem;
+     margin-top: 0;
+     margin-bottom: 1rem;
+ }
+ .page-section h3.section-subheading{
+     font-size: 1rem;
+     font-weight: light;
+     font-style: italic;
+     margin-bottom: 4rem;
+ }
+
+ /*About section*/
+ .about{
+     padding: 10px 0 0 0;
+ }
+ .about .icon-boxes h3{
+     font-size: 35px;
+     font-weight: bold;
+     color:black;
+     margin-bottom: 15px;
+ }
+ .about .icon-box{
+     margin-top: 40px;
+ }
+ /*.about .icon-box .icon{
+     float: left;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width:40px;
+     height: 40px;
+     border: 2px solid #cc1c05;
+     border-radius: 50px;
+     transition: 0.5s;
+
+ }*/
+ .about .icon-box .icon i{
+     color: #cc1c05;
+     font-size:32px;
+ }
+ .about .icon-box:hover .icon{
+     background: #cc1c05;
+     border-color: #cc1c05;
+ }
+ .about .icon-box:hover .i{
+      color: #fff;
+}
+ 
+ .about .icon-box .title{
+     margin-left: 85px;
+     
+ }
+ 
